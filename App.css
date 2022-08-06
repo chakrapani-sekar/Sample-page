@@ -1,0 +1,186 @@
+.main{
+  width: 100%;
+  height: 100vh;
+}
+.header{
+  width: 100%;
+  height: 50px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  position: relative;
+}
+.content1{
+  position: absolute;
+  width: 200px;
+  height: 50px;
+}
+.content1 .box{
+  width: 25px;
+  height: 25px;
+  padding: 7px;
+  display: inline-block;
+  position: absolute;
+  top: 5px;
+  left: 7px;
+  background-color: #0076ff;
+  border-radius: 10px;
+  position: absolute;
+}
+#cb{
+   position: relative;
+   bottom: 15px;
+   left: 3px;
+   color: white;
+}
+#cloud-banking{
+  position: relative;
+  left: 60px;
+  bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Segoe UI Emoji";
+}
+.content2{
+  width: 100px;
+  height: 50px;
+  position: relative;
+  left: 1100px;
+  top: 10px;
+}
+.content2 .box2{
+  background-color:#0076ff;
+  width: 30px;
+  height: 30px;
+  color: white;
+  border-radius: 15px;
+}
+#gc{
+  padding: 3px;
+}
+#clark{
+  position: relative;
+  left: 50px;
+  bottom: 42px;
+}
+
+.main-body{
+  width: 100%;
+  height: 590px;
+  background:url(D:/my-websites/react/UI-react/src/images/ui-background.png);
+  background-size:100%;
+  display: flex;
+  justify-content: space-around;
+}
+.lists{
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  display: inline-block;
+}
+.dot-one{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #0076ff;
+  display: inline-block;
+  position: relative;
+  left: 290px;
+  top: 59px;
+}
+.dot-one p, .dot-two p, .dot-three p, .dot-four p, .dot-five p{
+  color: white;
+  position: relative;
+  left: 10px;
+  bottom: 12px;
+}
+.dot, .dot1{
+  background-color: #edf1f7;
+  width: 4px;
+  height: 4px;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 5px;
+  position: relative;
+  top: 50px;
+  left: 290px;
+}
+.dot{
+  background-color: blue;
+}
+.dot-two, .dot-three, .dot-four, .dot-five{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #edf1f7;
+  display: inline-block;
+  position: relative;
+  left: 290px;
+  top: 59px;
+}
+.list-items{
+  display: flex;
+}
+.list-items ul li{
+  display: inline-block;
+  padding: 0px 20px;
+  position: relative;
+  left: 150px;
+  top: 50px;
+}
+.list-items ul li a{
+  color: #0076ff;
+}
+.container{
+  width: 1000px;
+  height: 400px;
+  background-color: white;
+  position: relative;
+  top: 150px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  overflow: hidden;
+}
+.container-title{
+ margin-left: 30px;
+ display: flex;
+}
+.container-contents{
+  margin-left: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container-contents .properties{
+  width: 260px;
+}
+#one, #two, #three {
+  margin-top: 15px;
+  width: 250px;
+  height: 30px;
+  border: 1px solid #c1cce1;
+  border-radius: 5px;
+}
+.address{
+  width: 92%;
+  position: relative;
+  top: 30px;
+  right: 5px;
+}
+#four{
+  margin-top: 15px;
+  width: 100%;
+  height: 90px;
+  border: 1px solid #c1cce1;
+  border-radius: 5px;
+}
+.file{
+  margin-top: 15px;
+  width: 92%;
+  position: relative;
+  top: 40px;
+}
+#five{
+  width: 100%;
+  height: 80px;
+  border: 2px solid #c1cce1;
+  border-style: dashed;
+  border-radius: 5px;
+}
